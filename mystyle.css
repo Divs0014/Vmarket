@@ -1,0 +1,170 @@
+.navbar{
+    display: flex;/* For making elements of class Navbar to act like inline elements */
+    align-items: center;/*  aligning the contents of Navbar to center */
+    padding-right: 20px;/* Applying padding from all directions */
+  }
+  nav{
+    flex:1;/* flex-grow :1 flex-shrink:1 flex-basis:0% */
+    text-align: right;
+  }
+  nav ul{
+    display: inline-block;
+    list-style-type: none;   /* For Removing bullets points produced by ul tag*/
+  }
+  nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+  }
+  a{
+    text-decoration: none;  
+    color: #555;
+  }
+  
+  .intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 520px;
+      background-image: url("./vegetable1.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  /* */
+    .intro h1 {
+      font-family: cursive;
+      font-size: 60px;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0;
+    }
+  
+    .intro p {
+      font-family: cursive;
+      font-size: 35px;
+      color: #fff;
+      text-transform: uppercase;
+      margin: 20px 0;
+    }
+  
+    .intro button {
+      background-color: #ade242;
+      color: #011105;
+      padding: 7px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+    }
+  
+    .vegetables {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 80px;
+    }
+  
+    .vegetables .work {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 40px;
+    }
+  
+    .vegetables .work i {
+      width: fit-content;
+      font-size: 50px;
+      color: #333333;
+      border-radius: 50%;
+      border: 2px solid #333333;
+      padding: 12px;
+    }
+  
+    .vegetables .work .work-heading {
+      font-size: 20px;
+      color: #333333;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+  
+    .vegetables .work .work-text {
+      font-size: 15px;
+      color: #585858;
+      margin: 10px 0;
+    }
+    /* Footer  */
+  
+  .container{
+      max-width: 1300px;
+      margin:auto;    /* horizontally center the element within its .*/
+      padding-left: 25px;
+      padding-right: 25px;
+  }
+  .row{
+    display: flex;  /* For making elements of class Navbar to act like inline elements */
+    align-items: center;
+    flex-wrap: wrap; /* Self Adjusting of elements */
+    justify-content: space-around;
+  }
+  
+    .footer{
+      background: #000;
+      color: #8a8a8a;
+      font-size: 14px;
+      padding: 60px 0 28px;
+  }
+  .footer p{
+      color: #8a8a8a;
+  }
+  .footer h3{
+      color: #fff;
+      margin-bottom: 20px;
+  }
+  .footer-col-1, .footer-col-2, .footer-col-4{
+      min-width: 250px;
+      margin-bottom: 20px;
+  }
+  .footer-col-1{
+      flex-basis: 30%;
+  }
+  .footer-col-2{
+      flex:1;
+      text-align: center;
+  }
+  .footer-col-2 img{
+      width: 180px;
+      margin-bottom: 20px;
+  }
+   .footer-col-4{
+      flex-basis: 12%;
+      text-align: center;
+  }
+  ul{
+      list-style-type: none;
+  }
+  .app-logo{
+      margin-top: 20px;
+  }
+  .app-logo img{
+      width: 140px;
+  }
+  .footer hr{
+      border: none;
+      background:#b5b5b5;
+      height: 1px;
+      margin: 20px 0;
+  }
+  .copyright{
+      text-align: center;
+  }
+  .menu-icon{
+      width: 20px;
+      margin-left: 20px;
+      display: none;
+  }
