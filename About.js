@@ -83,7 +83,7 @@ function AboutUs() {
         <Paragraph>
           Join us in our journey to celebrate the beauty and taste of fruits. Explore our diverse range, make healthier choices, and savor the joy that comes with every bite. Experience freshness, experience FruitHarvest.
 
-
+          hello
 
         </Paragraph>
       </ContentWrapper>
